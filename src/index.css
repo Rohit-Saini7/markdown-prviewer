@@ -12,29 +12,29 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background: #87b5b5;
+  background: #322e2f;
   margin: 10px 0;
 }
 
 .colorScheme,
 .previewWrap,
 .editorWrap textarea {
-  background-color: #c0d8d8;
+  background-color: #ffffff;
   border: 1px solid #1d2f2f;
-  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  box-shadow: 1px 1px 10px 2px #5f3a3a;
   border-top: none;
 }
 
 .toolbar {
   display: flex;
   align-items: center;
-  background-color: #4aa3a3;
+  background-color: #343434;
   padding: 0.3rem;
   border: 1px solid #1d2f2f;
-  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  box-shadow: 1px 1px 10px 2px #5f3a3a;
   font-family: Russo One;
   font-size: 1rem;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .toolbar i {
   width: 25px;
@@ -48,7 +48,7 @@ body {
 .fa-retweet:hover,
 .fa-compress:hover,
 .fa-arrows-alt:hover {
-  color: #57e2b1;
+  color: #e25757;
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .editorWrap {
-  max-width: 600px;
+  max-width: 700px;
   margin: 1.125rem auto;
 }
 .editorWrap .toolbar {
@@ -74,15 +74,8 @@ body {
   font-size: 0.875rem;
 }
 
-.converter {
-  width: 100px;
-  text-align: center;
-  font-size: 35px;
-  margin: auto;
-}
-
 .previewWrap {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 1.25rem auto;
   min-height: 200px;
   overflow-wrap: break-word;
@@ -130,6 +123,7 @@ body {
     width: 90vw;
   }
 }
+
 #preview {
   padding: 0 1rem;
 }
